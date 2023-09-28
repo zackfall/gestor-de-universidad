@@ -20,7 +20,7 @@ export class PersonalDeServicio extends Empleado {
     return this._seccion;
   }
 
-  public set seccion(seccion: string) {
+  public cambiarSeccion(seccion: string) {
     this._seccion = seccion;
   }
 

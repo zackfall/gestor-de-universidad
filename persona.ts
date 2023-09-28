@@ -26,8 +26,8 @@ export class Persona {
     return this._estadoCivil;
   }
 
-  public set estadoCivil(estado: string) {
-    this.estadoCivil = estado;
+  public cambiarEstadoCivil(estado: string) {
+    this._estadoCivil = estado;
   }
 
 

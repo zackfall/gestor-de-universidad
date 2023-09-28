@@ -1,18 +1,23 @@
+import { Curso } from "./curso";
 import { Persona } from "./persona";
 
 export class Estudiante extends Persona {
-  private _curso: string;
+  private _curso: Curso;
 
-  constructor(nombre: string, apellido: string, ci: number, estadoCivil: string, curso: string = "1er") {
+  constructor(nombre: string, apellido: string, ci: number, estadoCivil: string) {
     super(nombre, apellido, ci, estadoCivil);
-    this._curso = curso;
+    this._curso = new Curso("1er")
   }
 
-  public get curso(): string {
+  public matricular(curso: string) {
+    this.curso = new Curso(curso)
+  }
+
+  public get curso(): Curso {
     return this._curso;
   }
 
-  public set curso(curso: string) {
+  private set curso(curso: Curso) {
     this._curso = curso;
   }
 

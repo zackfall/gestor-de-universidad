@@ -20,7 +20,7 @@ export class Profesor extends Empleado {
     return this._departamento;
   }
 
-  public set departamento(departamento: string) {
+  public cambiarDepartamento(departamento: string) {
     this._departamento = departamento;
   }
 

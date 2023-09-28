@@ -14,7 +14,7 @@ export class Empleado extends Persona {
     return this._despacho;
   }
 
-  public set despacho(despacho: number) {
+  public cambiarDespacho(despacho: number) {
     this._despacho = despacho;
   }
 
