@@ -1,4 +1,3 @@
-import { Curso } from "./curso";
 import { Empleado } from "./empleado";
 import { Estudiante } from "./estudiante";
 import { Persona } from "./persona";
