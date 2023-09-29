@@ -1,3 +1,4 @@
+// Clase opcional que está asociada a la clase estudiante, y es de tipo Composición
 export class Curso {
   private _nombre: string;
 
