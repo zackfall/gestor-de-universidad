@@ -1,3 +1,5 @@
+// Esta clase es la clase madre para el programa.
+// La clase persona, provee de diferentes datos que son importantes cuando hablamos de una persona.
 export class Persona {
   private _nombre: string;
   private _apellido: string;

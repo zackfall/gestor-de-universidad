@@ -1,5 +1,6 @@
 import { Empleado } from "./empleado";
 
+// La clase Personal de Servicio es una subclase de Empleado que hereda los datos de Persona y Empleado
 export class PersonalDeServicio extends Empleado {
   private _seccion: string;
 

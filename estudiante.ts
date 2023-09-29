@@ -1,6 +1,8 @@
 import { Curso } from "./curso";
 import { Persona } from "./persona";
 
+// La clase estudiante es una clase que hereda los datos de la clase Persona y añade el atributo curso,
+// que es una clase asociada por composición a esta
 export class Estudiante extends Persona {
   private _curso: Curso;
 

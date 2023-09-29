@@ -1,5 +1,6 @@
 import { Empleado } from "./empleado";
 
+// La clase profesor es una subclase de Empleado que hereda los datos de Persona y Empleado
 export class Profesor extends Empleado {
   private _departamento: string;
 
